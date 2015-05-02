@@ -1,0 +1,12 @@
+package com.callfire.postbackservice.type;
+
+public enum TriggerEventType {
+    UNDEFINED_EVENT,
+    INBOUND_CALL_FINISHED,
+    INBOUND_TEXT_FINISHED,
+    OUTBOUND_CALL_FINISHED,
+    OUTBOUND_TEXT_FINISHED,
+    CAMPAIGN_STARTED,
+    CAMPAIGN_STOPPED,
+    CAMPAIGN_FINISHED
+}
